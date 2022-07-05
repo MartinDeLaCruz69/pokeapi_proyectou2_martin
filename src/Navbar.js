@@ -1,5 +1,5 @@
 import React from "react";
-import { NavbarWrapper } from "./styles/NavbarStyles";
+import { NavbarWrapper } from "./Styles/NavbarStyles";
 
 function Navbar({ open }) {
   return (

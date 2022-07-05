@@ -3,10 +3,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css"
 import  Main  from "./Main.js"
 import Me from "./About.js"
-import Dir from "./Navbar.js"
+import Navbar from "./Navbar.js"
 
-const Inicio = () => {
-  const Home = () => <h1>Home</h1>;
+const Home = () => {
+  const Inicio = () => <h1>Home</h1>;
   const Pokemon = () => <h1>Pokemon Info</h1>;
   const About = () => <h1>190170</h1>;
   return (
@@ -23,4 +23,4 @@ const Inicio = () => {
     </>
   );
 };
-export default Inicio;
+export default Home;
