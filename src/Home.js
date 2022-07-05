@@ -15,10 +15,13 @@ const Home = () => {
     <Index />
       <BrowserRouter>
         <Routes>
-          <Route path="/pokes" element={<Start />}></Route>
+          <Route path="/pokemons" element={<Start />}></Route>
           <Route path="/matricula" element={<Begin />}></Route>
         </Routes>
       </BrowserRouter>
+      <div>
+                <img className="imgfondo" src="./img/fondo.jpg" alt="box"></img>
+                </div>
 
     </>
   );

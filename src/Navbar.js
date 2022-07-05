@@ -7,7 +7,7 @@ const Index = () => {
         <nav>
              <div className='options'>
             <ul>
-          <li> <a href="/pokes" className='hover-underline-animation'> All About Pokemons </a></li> 
+          <li> <a href="/pokemons" className='hover-underline-animation'> All About Pokemons </a></li> 
                 
             </ul>
            <ul>

@@ -91,10 +91,12 @@ nav a{
     text-decoration:none;
     color:inherit;
     font-size:20px;
+    position:sticky;
     } 
     nav li{
     display:inline-block;
     width:100%;
+    position:sticky;
     padding:50px 50px;
     background-color:#000;
     border:10px solid #000;
@@ -113,4 +115,22 @@ nav a{
         border:30px solid #000;
         text-align:center;
         color:#fff;
+        position:sticky;
         }
+
+        .images{
+            width: 500px;
+            height: 550px;
+        }
+        .center{
+            position:center ;
+            text-align:center;
+        }
+        #hobbies{
+            position:center ;
+            text-align:center;
+        }
+.imgfondo{
+   width: 1600px;
+   height: 700px;
+}

@@ -4,42 +4,44 @@ import "./App.css"
 const Begin = () => {
 
     return (
-        <div>
+        <div class="center">
             <div>
-                <img className="Images" src="./img/Me.jpg" alt="perfil"></img>
+                <img className="images" src="./img/Me.jpg" alt="perfil"></img>
             </div>
             <div>
             <h1>Juan Martin Esparza de la Cruz</h1><br></br>
             <h5>Universidad Tecnológica de Aguascalientes</h5><br></br>
 
-            <div class="hobbies">
+            <h1>THIS ARE MY HOBBIES</h1>
+
+            <div >
         <table>
             <tr>
-                <td>1.- Me gusta practicar boxeo.</td><br></br>
+                <td>1.- I like to practice boxing.</td><br></br>
                 <div>
                 <img className="img" src="./img/boxeo.jpg" alt="box"></img>
                 </div>
             </tr>
             <tr>
-                <td>2.- Disfruto comer discada.</td><br></br>
+                <td>2.- I enjoy eating discada.</td><br></br>
                 <div>
                 <img className="img" src="./img/discada.jpg "alt=""></img>
                 </div>
             </tr>
             <tr>
-                <td>3.- Jugar videojuegos.</td><br></br>
+                <td>3.- I like to play video games.</td><br></br>
                 <div>
                 <img className="img" src="./img/games.jpg "alt=""></img>
                 </div>
             </tr>
             <tr>
-                <td>4.- Me gusta escuchar todo tipo de música.</td><br></br>
+                <td>4.- I like to listen to all kinds of music.</td><br></br>
                 <div>
                 <img className="img" src="./img/Music.png "alt=""></img>
                 </div>
             </tr>
             <tr>
-                <td>5.- Me gusta viajar.</td><br></br>
+                <td>5.- I like to travel.</td><br></br>
                 <div>
                 <img className="img" src="./img/viajar.jpeg "alt=""></img>
                 </div>
