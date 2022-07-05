@@ -6,7 +6,7 @@ const Begin = () => {
     return (
         <div>
             <div>
-                <img className="Images" src="./img/me.jpg" alt="perfil"></img>
+                <img className="Images" src="./img/Me.jpg" alt="perfil"></img>
             </div>
             <div>
             <h1>Juan Martin Esparza de la Cruz</h1><br></br>
@@ -15,34 +15,34 @@ const Begin = () => {
             <div class="hobbies">
         <table>
             <tr>
-                <td>1.- Me gusta practicar boxeo</td>
+                <td>1.- Me gusta practicar boxeo.</td><br></br>
                 <div>
                 <img className="img" src="./img/boxeo.jpg" alt="box"></img>
-            </div>
+                </div>
             </tr>
             <tr>
-                <td>2.- Disfruto comer discada.</td>
+                <td>2.- Disfruto comer discada.</td><br></br>
                 <div>
                 <img className="img" src="./img/discada.jpg "alt=""></img>
-            </div>
+                </div>
             </tr>
             <tr>
-                <td>3.- Jugar videojuegos. </td>
+                <td>3.- Jugar videojuegos.</td><br></br>
                 <div>
                 <img className="img" src="./img/games.jpg "alt=""></img>
-            </div>
+                </div>
             </tr>
             <tr>
-                <td>4.- Me gusta escuchar todo tipo de música. </td>
+                <td>4.- Me gusta escuchar todo tipo de música.</td><br></br>
                 <div>
                 <img className="img" src="./img/Music.png "alt=""></img>
-            </div>
+                </div>
             </tr>
             <tr>
-                <td>5.- Me gusta viajar</td>
+                <td>5.- Me gusta viajar.</td><br></br>
                 <div>
                 <img className="img" src="./img/viajar.jpeg "alt=""></img>
-            </div>
+                </div>
             </tr>
         </table>
     </div>
