@@ -1,22 +1,22 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css"
-import  Main  from "./Main.js"
-import Me from "./About.js"
-import Navbar from "./Navbar.js"
+import  Start  from "./Main.js"
+import Begin from "./About.js"
+import Index from "./Navbar"
 
 const Home = () => {
+  // eslint-disable-next-line
   const Inicio = () => <h1>Home</h1>;
-  const Pokemon = () => <h1>Pokemon Info</h1>;
+  // eslint-disable-next-line
   const About = () => <h1>190170</h1>;
   return (
     <>
-    <Dir />
+    <Index />
       <BrowserRouter>
         <Routes>
-          <Route path="/pokemons" element={<Main />}></Route>
-          <Route path="/pokemonsinfo" element={<Info  />}></Route>
-          <Route path="/matricula" element={<Me />}></Route>
+          <Route path="/pokes" element={<Start />}></Route>
+          <Route path="/matricula" element={<Begin />}></Route>
         </Routes>
       </BrowserRouter>
 

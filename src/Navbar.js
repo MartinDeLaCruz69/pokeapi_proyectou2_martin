@@ -1,15 +1,17 @@
 import React from "react";
-import { NavbarWrapper } from "./Styles/NavbarStyles";
+import "./Style.css"
 
-function Navbar({ open }) {
-  return (
-    <NavbarWrapper open={open}>
-      <a href="#">Link</a>
-      <a href="#">Link</a>
-      <a href="#">Link</a>
-      <a href="#">Link</a>
-    </NavbarWrapper>
-  );
-}
+const Index = () => {
 
-export default Navbar;
+    return (
+        <nav>
+            <div className='options'>
+                <a href="/pokes" className='hover-underline-animation'> All About Pokemons </a>
+                <a href="/matricula" className='hover-underline-animation'> 190170 </a>
+            </div>
+        </nav>
+    );
+
+};
+
+export default Index;

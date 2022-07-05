@@ -4,7 +4,8 @@ import Pokeinfo from "./Pokeinfo";
 import axios from "axios"; 
 import { useState } from "react";
 import { useEffect } from "react";
-const Main=()=>{
+
+const Start=()=>{
     const [pokeData,setPokeData]=useState([]);
     const [loading,setLoading]=useState(true);
     const [url,setUrl]=useState("https://pokeapi.co/api/v2/pokemon/")
@@ -32,6 +33,7 @@ const Main=()=>{
     }
     useEffect(()=>{
         pokeFun();
+         // eslint-disable-next-line
     },[url])
     return(
         <>
@@ -59,4 +61,4 @@ const Main=()=>{
         </>
     )
 }
-export default Main;
+export default Start;

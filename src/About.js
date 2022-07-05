@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css"
 
-const Me = () => {
+const Begin = () => {
 
     return (
         <div>
@@ -36,4 +36,4 @@ const Me = () => {
      );
 
 };
-export default Me;
+export default Begin;
